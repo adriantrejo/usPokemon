@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ArticulosComponent } from './articulos-controller/articulos.component';
 import { ArticuloComponent } from './articulo/articulo.component';
 import { RecursosComponent } from './recursos/recursos.component';
@@ -20,7 +19,6 @@ import { VideosComponent } from './videos/videos.component';
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent,
     ArticulosComponent,
     ArticuloComponent,
     RecursosComponent,
@@ -33,7 +31,6 @@ import { VideosComponent } from './videos/videos.component';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
       { path: 'articulos', component: ArticulosComponent },
       { path: 'articulos/:id', component: ArticuloComponent },
       { path: 'recursos', component: RecursosComponent },
